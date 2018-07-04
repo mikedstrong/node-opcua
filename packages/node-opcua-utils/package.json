@@ -11,7 +11,7 @@
  "dependencies": {
   "node-opcua-assert": "^0.4.0",
   "underscore": "^1.9.1",
-  "chalk": "^2.4.1",
+  "chalk": "^2.4.1"
  },
  "devDependencies": {
   "@types/chalk": "^2.2.0",
