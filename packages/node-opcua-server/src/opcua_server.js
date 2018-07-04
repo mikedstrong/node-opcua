@@ -764,7 +764,7 @@ OPCUAServer.prototype.verifyClientSignature = function (session, channel, client
 };
 
 
-const minSessionTimeout = 100; // 100 milliseconds
+const minSessionTimeout = 1000 * 60 * 30; // 30 minutes
 const defaultSessionTimeout = 1000 * 30; // 30 seconds
 const maxSessionTimeout = 1000 * 60 * 50; // 50 minutes
 
